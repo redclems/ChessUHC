@@ -1,0 +1,41 @@
+name: chessUHC
+version: 1.0
+author: RedClems
+main: fr.gearing.chessUHC.ChessUHC
+commands:
+  uhcstart:
+    description: commande to start the game
+    permission: chessUHC.use
+  uhcstop:
+    description: commande to stop the game
+    permission: chessUHC.use
+  info:
+    description: commande to send message to all player
+    permission: chessUHC.use
+  uhcgroupetaille:
+    description: commande to change the group size
+    permission: chessUHC.use
+  uhcplayerList:
+    description: commande to show the list of player and the number
+    permission: chessUHC.use
+  uhcteams:
+    description: commande to show the list of player in the teams
+    permission: chessUHC.use
+  uhcborder:
+    description: commande start or stop the border
+    permission: chessUHC.use
+  uhcrole:
+    description: commande pour conaitre son role
+    permission: chessUHC.role
+  uhcsetday:
+    description: commande pour changer le timer
+    permission: chessUHC.use
+
+
+permissions:
+  chessUHC.use:
+    description: permet d'utiliser les commande de gestion
+    default: op
+  chessUHC.role:
+    description: permet d'utiliser les commande des role
+    default: true

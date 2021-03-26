@@ -1,0 +1,17 @@
+world:
+  sizeMap: 2400
+  sizeMapEnd: 640
+  borderJour: 6
+  tenpBorder: 1.5
+  spawnX: 0
+  spawnY: 100
+  spawnZ: 0
+gameplay:
+  teamView: false
+  coordoneeView: true
+  chatOff: true
+  naturalRegeneration: false
+  DeathMessage: true
+  groupTaille: 6
+plateau:
+  tailleCase: 80
